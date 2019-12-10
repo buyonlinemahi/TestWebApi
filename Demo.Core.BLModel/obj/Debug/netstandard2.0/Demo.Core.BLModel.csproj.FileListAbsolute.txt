@@ -1,0 +1,9 @@
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\bin\Debug\netstandard2.0\Demo.Core.BLModel.deps.json
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\bin\Debug\netstandard2.0\Demo.Core.BLModel.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\bin\Debug\netstandard2.0\Demo.Core.BLModel.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.csproj.CoreCompileInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.AssemblyInfoInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.AssemblyInfo.cs
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.BLModel\obj\Debug\netstandard2.0\Demo.Core.BLModel.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.Data.SQLServer.deps.json
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.Data.SQLServer.dll
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.Data.SQLServer.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.Data.Model.dll
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.Data.Model.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.csprojAssemblyReference.cache
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.csproj.CoreCompileInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.AssemblyInfoInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.AssemblyInfo.cs
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.csproj.CopyComplete
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.dll
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.pdb
