@@ -9,5 +9,8 @@ namespace Demo.Core.Data.SQLServer
         #region PaymentDetail
         public virtual DbSet<PaymentDetail> PaymentDetails { get; set; }
         #endregion
+        #region User
+        public virtual DbSet<User> Users { get; set; }
+        #endregion
     }
 }

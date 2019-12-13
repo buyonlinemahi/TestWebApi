@@ -13,6 +13,11 @@ namespace DemoWebApiService.Mapper
             CreateMap<PaymentDetail, Core.PaymentDetail>();
             CreateMap<Core.PaymentDetail, PaymentDetail>();
             #endregion
+
+            #region User
+            CreateMap<User, Core.User>();
+            CreateMap<Core.User, User>();
+            #endregion
         }
     }
 }
