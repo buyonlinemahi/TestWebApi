@@ -589,6 +589,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Demo.Core.BLModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Demo.Core.BLModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.Core.BLModel.dll": {}
+        }
+      },
       "Demo.Core.Data.Model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2573,6 +2583,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Demo.Core.BLModel/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Core.BLModel/Demo.Core.BLModel.csproj",
+      "msbuildProject": "../Demo.Core.BLModel/Demo.Core.BLModel.csproj"
+    },
     "Demo.Core.Data.Model/1.0.0": {
       "type": "project",
       "path": "../Demo.Core.Data.Model/Demo.Core.Data.Model.csproj",
@@ -2581,6 +2596,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Demo.Core.BLModel >= 1.0.0",
       "Demo.Core.Data.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.2.6",
       "NETStandard.Library >= 2.0.3"
@@ -2616,6 +2632,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "D:\\AngularGitHub\\DemoApp\\Demo.Core.BLModel\\Demo.Core.BLModel.csproj": {
+              "projectPath": "D:\\AngularGitHub\\DemoApp\\Demo.Core.BLModel\\Demo.Core.BLModel.csproj"
+            },
             "D:\\AngularGitHub\\DemoApp\\Demo.Core.Data.Model\\Demo.Core.Data.Model.csproj": {
               "projectPath": "D:\\AngularGitHub\\DemoApp\\Demo.Core.Data.Model\\Demo.Core.Data.Model.csproj"
             }

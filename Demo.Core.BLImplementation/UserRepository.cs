@@ -21,7 +21,10 @@ namespace Demo.Core.BLImplementation
         #region Users
         public int AddUser(User _users)
         {
-            return _userRepository.Add(_users).UserId;
+            if (_userRepository.GetAll(user => user.UserName == _users.UserName).Count() > 0)
+                return 0;
+            else
+                return _userRepository.Add(_users).UserId;            
         }
 
         public int UpdateUser(User _users)
@@ -50,9 +53,16 @@ namespace Demo.Core.BLImplementation
             _dbContext.Database.ExecuteSqlCommand("Update_PasswordByID {0},{1}", UserID, Password);
         }
 
+        public List<User> GetUsersDetailsByLogin(string UserName,string Password)
+        {
+            var _User = _userRepository.GetAll().Where(user => user.UserName == UserName && user.Password == Password).ToList();
+           
+            return _User = _User.Count == 0 ? null : _User;
+        }
         public List<User> GetUsersByUserName(string UserName)
         {
-            List<User> _User = _userRepository.GetAll().Where(user => user.UserName == UserName).ToList();
+            var _User = _userRepository.GetAll().Where(user => user.UserName == UserName).ToList();
+
             return _User ?? null;
         }
         #endregion

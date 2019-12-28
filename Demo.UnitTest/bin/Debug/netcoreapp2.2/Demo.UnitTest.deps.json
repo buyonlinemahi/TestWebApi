@@ -1491,6 +1491,7 @@
       },
       "Demo.Core.Data.SQLServer/1.0.0": {
         "dependencies": {
+          "Demo.Core.BLModel": "1.0.0",
           "Demo.Core.Data.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.6"
         },

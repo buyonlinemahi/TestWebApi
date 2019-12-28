@@ -1,0 +1,16 @@
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.csprojAssemblyReference.cache
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.csproj.CoreCompileInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.AssemblyInfoInputs.cache
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.AssemblyInfo.cs
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.BL.deps.json
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.BL.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.BL.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.BLModel.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.Data.Model.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.BLModel.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\Demo.Core.Data.Model.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.BL\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.csproj.CopyComplete
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.dll
+D:\AngularGitHub\DemoApp\Demo.Core.BL\obj\Release\netstandard2.0\Demo.Core.BL.pdb

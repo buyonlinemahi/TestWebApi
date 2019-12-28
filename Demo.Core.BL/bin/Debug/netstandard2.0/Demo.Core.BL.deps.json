@@ -24,14 +24,14 @@
         }
       },
       "Demo.Core.BLModel/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.2.0.0"
+        },
         "runtime": {
           "Demo.Core.BLModel.dll": {}
         }
       },
       "Demo.Core.Data.Model/1.0.0": {
-        "dependencies": {
-          "System.ComponentModel.Annotations": "4.2.0.0"
-        },
         "runtime": {
           "Demo.Core.Data.Model.dll": {}
         }

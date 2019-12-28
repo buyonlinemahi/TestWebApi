@@ -10,3 +10,5 @@ D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.
 D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.csproj.CopyComplete
 D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.dll
 D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\obj\Debug\netstandard2.0\Demo.Core.Data.SQLServer.pdb
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.BLModel.dll
+D:\AngularGitHub\DemoApp\Demo.Core.Data.SQLServer\bin\Debug\netstandard2.0\Demo.Core.BLModel.pdb

@@ -59,6 +59,7 @@ namespace DemoWebApiService
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             })
             .AddJwtBearer(x =>
             {
@@ -75,16 +76,27 @@ namespace DemoWebApiService
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
-            services.AddCors();
+           /// services.AddCors();
+            services.AddCors(options => options.AddPolicy("Cors", builder =>
+            {
+                builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
-            app.UseCors(options =>
-          options.WithOrigins("http://localhost:4200")
-          .AllowAnyMethod()
-          .AllowAnyHeader());
+            //  app.UseCors(options =>
+            //options.WithOrigins("http://localhost:4200")
+            //.AllowAnyMethod()
+            //.AllowAnyHeader());
+
+
+            app.UseCors("Cors");
+
             app.UseMvc();
             app.UseAuthentication();
         }

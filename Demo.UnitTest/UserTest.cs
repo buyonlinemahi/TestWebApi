@@ -27,7 +27,7 @@ namespace Demo.UnitTest
         {
             User _user = new User
             {
-                UserName = "Tikku Sharma",
+                UserName = "e",
                 FirstName = "TestDheeraj",
                 LastName = "TestLName",
                 EmailId = "dsharma@test.com",
@@ -85,9 +85,15 @@ namespace Demo.UnitTest
 
         }
         [Fact]
-        public void GetUserByUserName()
+        public void Get_UsersDetailsByLogin()
         {
-            var userByName = _userRepository.GetUsersByUserName("Tikku");
+            var userByName = _userRepository.GetUsersDetailsByLogin("Tikku","1");
+            Assert.True(userByName != null, "failed");
+        }
+        [Fact]
+        public void Get_UsersByUserName()
+        {
+            var userByName = _userRepository.GetUsersByUserName("t");
             Assert.True(userByName != null, "failed");
         }
 

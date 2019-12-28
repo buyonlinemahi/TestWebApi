@@ -1,0 +1,16 @@
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.csprojAssemblyReference.cache
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.csproj.CoreCompileInputs.cache
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.AssemblyInfoInputs.cache
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.AssemblyInfo.cs
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\DemoService.DTO.deps.json
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\DemoService.DTO.dll
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\DemoService.DTO.pdb
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\Demo.Core.BLModel.dll
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\Demo.Core.Data.Model.dll
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\Demo.Core.BLModel.pdb
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\Demo.Core.Data.Model.pdb
+D:\AngularGitHub\DemoApp\DemoService.DTO\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.csproj.CopyComplete
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.dll
+D:\AngularGitHub\DemoApp\DemoService.DTO\obj\Release\netstandard2.0\DemoService.DTO.pdb

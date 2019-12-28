@@ -47,7 +47,10 @@ namespace Demo.Core.Data.SQLServer
         {
             return dbset.Find(id);
         }
-
+        public virtual T GetById(long id)
+        {
+            return dbset.Find(id);
+        }
         public virtual T GetById(Guid id)
         {
             return dbset.Find(id);
@@ -89,7 +92,11 @@ namespace Demo.Core.Data.SQLServer
             dbset.Remove(dbset.Find(id));
             _DemoDbContext.SaveChanges();
         }
-
+        public virtual void Delete(long id)
+        {
+            dbset.Remove(dbset.Find(id));
+            _DemoDbContext.SaveChanges();
+        }
         public virtual void Delete(Expression<Func<T, bool>> where)
         {
             IEnumerable<T> objects = dbset.Where<T>(where).AsEnumerable();
