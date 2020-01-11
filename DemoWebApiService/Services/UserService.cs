@@ -13,7 +13,7 @@ namespace DemoWebApiService.Services
 {
     public interface IUserService
     {
-        User Authenticate(string username, string password, List<User> _users);
+        User Authenticate(string username, string password, User _users);
     }
     public class UserService : IUserService
     {       
@@ -24,9 +24,9 @@ namespace DemoWebApiService.Services
             _appSettings = appSettings.Value;
         }
 
-        public User Authenticate(string username, string password, List<User> _users)
+        public User Authenticate(string username, string password,User _users)
         {
-            var user = _users.SingleOrDefault(x => x.UserName == username && x.Password == password);
+            var user = _users;
 
             // return null if user not found
             if (user == null)

@@ -1,13 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Demo.Core.Data.Model;
 using BLModel =Demo.Core.BLModel;
+using BLBase = Demo.Core.BLModel.Base;
 
 namespace Demo.Core.Data.SQLServer
 {
     public class DemoDbContext : DbContext
     {
         public DemoDbContext(DbContextOptions<DemoDbContext> options) : base(options) { }
-       
+        #region TotalCount
+        public virtual DbSet<BLBase.BasePaged> BasePaged { get; set; }
+        #endregion
         #region PaymentDetail
         public virtual DbSet<PaymentDetail> PaymentDetails { get; set; }
         #endregion

@@ -53,11 +53,11 @@ namespace Demo.Core.BLImplementation
             _dbContext.Database.ExecuteSqlCommand("Update_PasswordByID {0},{1}", UserID, Password);
         }
 
-        public List<User> GetUsersDetailsByLogin(string UserName,string Password)
+        public User GetUsersDetailsByLogin(string UserName,string Password)
         {
-            var _User = _userRepository.GetAll().Where(user => user.UserName == UserName && user.Password == Password).ToList();
-           
-            return _User = _User.Count == 0 ? null : _User;
+            var _User = _userRepository.GetAll().Where(user => user.UserName == UserName && user.Password == Password).FirstOrDefault();
+
+            return _User;
         }
         public List<User> GetUsersByUserName(string UserName)
         {

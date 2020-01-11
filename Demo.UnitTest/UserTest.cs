@@ -87,7 +87,7 @@ namespace Demo.UnitTest
         [Fact]
         public void Get_UsersDetailsByLogin()
         {
-            var userByName = _userRepository.GetUsersDetailsByLogin("Tikku","1");
+            var userByName = _userRepository.GetUsersDetailsByLogin("Tikku","2");
             Assert.True(userByName != null, "failed");
         }
         [Fact]

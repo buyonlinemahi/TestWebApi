@@ -26,7 +26,7 @@ namespace DemoWebApiService.Controllers
         {
             try
             {
-                Customer _customer = _mapper.Map<Customer>(_customerRepository.GetCustomers());
+                IEnumerable<Customer> _customer = _mapper.Map<IEnumerable<Customer>>(_customerRepository.GetCustomers());
                 return _customer == null ? NotFound(_customer) : (IActionResult)Ok(_customer);
             }
             catch (Exception ex)

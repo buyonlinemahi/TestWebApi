@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Demo.Core.BLModel.Base
+namespace DemoService.DTO
 {
-    public class BasePaged
+    public class OrderList
     {
-        [Key]
+        public IEnumerable<Order> OrderLists { get; set; }
         public int TotalCount { get; set; }
     }
 }

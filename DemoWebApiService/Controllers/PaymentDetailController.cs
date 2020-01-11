@@ -46,7 +46,7 @@ namespace DemoWebApiService.Controllers
             {
                 throw ex;
             }
-}
+        }
 
         [HttpDelete("api/PaymentDetail/DeletePaymentDetail/{id}")]
         public ActionResult DeleteUser(int id)
@@ -88,6 +88,6 @@ namespace DemoWebApiService.Controllers
             {
                 throw ex;
             }
-}
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace DemoService.DTO
         public int ItemID { get; set; }
         public int Quantity { get; set; }
         public string ItemName { get; set; }
-        public string Price { get; set; }
+        public decimal Price { get; set; }
         public decimal Total { get; set; }
     }
 }

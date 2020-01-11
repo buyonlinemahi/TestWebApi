@@ -14,7 +14,7 @@ namespace Demo.Core.BL
         User GetUserByID(int _id);
         User GetUserByEmailID(string Email);
         void updatePasswordByID(int UserID, string Password);
-        List<User> GetUsersDetailsByLogin(string UserName, string Password);
+        User GetUsersDetailsByLogin(string UserName, string Password);
         List<User> GetUsersByUserName(string UserName);
         #endregion
 
