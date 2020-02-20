@@ -2,6 +2,7 @@
 using Demo.Core.Data.Model;
 using Demo.Core.Data.SQLServer;
 using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Text;
 using Omu.ValueInjecter;
@@ -42,6 +43,12 @@ namespace Demo.Core.BLImplementation
         public IEnumerable<Customer> GetCustomers()
         {
             return _customerRepository.GetAll().Select(mahi => new Customer().InjectFrom(mahi)).Cast<Customer>().OrderBy(mahi => mahi.CustomerID).ToList();
+        }
+
+        public IEnumerable<Customer> GetCustomerByName(string CustomerName)
+        {
+            var s = _dbContext.Customers.FromSql($"GET_CustomersByName {CustomerName}");
+            return s.ToList();
         }
         #endregion
 

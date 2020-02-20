@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
-namespace Demo.Core.Data.Model
+﻿using System.ComponentModel.DataAnnotations;
+namespace Demo.Core.BLModel
 {
     public class Customer
     {
         [Key]
         public int CustomerID { get; set; }
         public string CustomerName { get; set; }
-
     }
 }

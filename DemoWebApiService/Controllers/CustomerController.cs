@@ -34,5 +34,18 @@ namespace DemoWebApiService.Controllers
                 throw ex;
             }
         }
+        [HttpGet("api/Customer/GetCustomerByName/{CustomerName}")]
+        public IActionResult GetCustomerByName(string CustomerName)
+        {
+            try
+            {
+                IEnumerable<Customer> _customer = _mapper.Map<IEnumerable<Customer>>(_customerRepository.GetCustomerByName(CustomerName));
+                return _customer == null ? NotFound(_customer) : (IActionResult)Ok(_customer);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

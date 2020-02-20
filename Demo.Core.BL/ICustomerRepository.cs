@@ -13,6 +13,7 @@ namespace Demo.Core.BL
         void DeleteCustomer(int id);
         Customer GetCustomerByID(int _id);
         IEnumerable<Customer> GetCustomers();
+        IEnumerable<Customer> GetCustomerByName(string Name);
         #endregion
     }
 }
